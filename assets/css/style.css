@@ -320,17 +320,20 @@ section {
 .cta-section {
   background: linear-gradient(to right, rgb(39, 70, 133) 0%, rgb(61, 179, 197) 100%);
   color: #fff;
+  padding: 15px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
 }
 
 .cta-section h2 {
   color: #fff;
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {
   .cta-section h2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 
@@ -341,7 +344,7 @@ section {
 
 .cta-section .btn i {
   margin-right: 5px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 0;
 }
 
